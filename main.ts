@@ -16,3 +16,5 @@ b 5 5 5 5 d d 4 4 4 4 . . . . .
 4 d d d 4 4 4 . . . . . . . . . 
 4 4 4 4 . . . . . . . . . . . . 
 `, SpriteKind.Player)
+mySprite.setVelocity(50, 50)
+mySprite.setFlag(SpriteFlag.StayInScreen, true)
